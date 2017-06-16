@@ -1,2 +1,3 @@
 # MiniCRM
-MiniCRM - Mini CRM php
+Very simple php MiniCRM - Mini CRM php
+
