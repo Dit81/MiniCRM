@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	  <meta charset="utf-8">
+	  <title>Добавить задачу - MiniCRM Admin</title>
+	</head>
+	<body>
+		<h1>Добавить задачу - MiniCRM Admin</h1>
+		<ul id="menu">
+			<li><a href="../../index.php">На сайт</a></li>
+			<li><a href="../index.php">Administrator</a></li>
+		</ul>
+		<?php if ($message != "") echo "<p>" . $message . " <a href=\"../index.php\">Назад</a></p>"; ?>
+<form method="post" action="">
+	<p>Заголовок задачи:</p>
+	<input name="title" type="text" /><br />
+	<p>Описание задачи:</p>
+	<textarea rows="12" cols="50" name="description"></textarea><br />
+	<input type="submit" name="submit" value="Добавить">
+</form>
+</body>
+</html>
